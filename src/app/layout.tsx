@@ -1,21 +1,23 @@
 import './globals.css'
 import { Montserrat, Source_Code_Pro, Playfair_Display } from 'next/font/google'
+import classNames from 'classnames'
 
-const montserrrat = Montserrat({ 
+const montserrat = Montserrat({ 
   subsets: ['latin'],
   weight: ['400'],
+  variable: '--font-variable'
 })
 
 const source = Source_Code_Pro({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--source'
+  variable: '--font-source'
 })
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
   weight: ['400'],
-  variable: '--playfair'
+  variable: '--font-playfair'
 })
 
 export const metadata = {
@@ -29,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={classNames(source.variable, montserrat.variable, playfair.variable)}>
       <body className={`bg-navy`}>{children}</body>
     </html>
   )

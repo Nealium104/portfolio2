@@ -6,13 +6,13 @@ export default function Nav () {
         <nav className="bg-off-white h-24">
             <div className="h-16 bg-red-400">
                 <a href='/' className="">
-                    <Image
+                    {/* <Image
                         className=""
                         src="/images/logo.png"
                         alt="logo"
                         fill
                         objectFit="cover"
-                    />
+                    /> */}
                 </a>
             </div>
             <div>

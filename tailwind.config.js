@@ -14,9 +14,9 @@ module.exports = {
 
     },
     fontFamily: {
-      montserrat: ['montserrat'],
-      source: ['source code pro'],
-      playfair: ['playfair display'],
+      montserrat: ['Montserrat'],
+      source: ["var(--font-source)"],
+      playfair: ["var(--font-playfair)"],
     }
   },
   plugins: [],
