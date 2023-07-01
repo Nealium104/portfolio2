@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Nav from './Nav'
+import Nav from '../Nav'
 
-export default function Home() {
+export default function Photography() {
   return (
   <>
     <Nav />

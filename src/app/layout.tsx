@@ -32,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={classNames(source.variable, montserrat.variable, playfair.variable)}>
-      <body className={`bg-navy`}>{children}</body>
+      <body className={`bg-navy text-off-white`}>{children}</body>
     </html>
   )
 }

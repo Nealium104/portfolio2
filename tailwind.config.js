@@ -6,12 +6,11 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      'navy': '#1C1D2E',
-      'off-white': "#D9D9D9"
-    },
     extend: {
-
+      colors: {
+        'navy': '#1C1D2E',
+        'off-white': "#D9D9D9"
+      },
     },
     fontFamily: {
       montserrat: ['Montserrat'],
