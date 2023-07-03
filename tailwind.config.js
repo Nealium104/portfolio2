@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       colors: {
         'navy': '#1C1D2E',
-        'off-white': "#D9D9D9"
+        'off-white': "#D9D9D9",
+        'ocean-blue': "#80D3E5",
+        'bright-yellow': "#DFD04A"
       },
     },
     fontFamily: {
