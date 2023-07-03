@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className='md:w-1/3 h-fit bg-off-white text-black rounded-xl mx-4 my-4 p-4 font-thin font-montserrat shadow-xl text-center'>
           <h1>My name is <span className='block text-5xl font-playfair hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-bright-yellow hover:to-ocean-blue'>Neal Grindstaff</span></h1>
-          <span className='block py-4'>I'm a web developer, photographer, and musician.</span>
+          <span className='block py-4'>I&apos;m a web developer, photographer, and musician.</span>
           <span className='block py-4'>Let me help you and your team.</span>
           <Link className='block py-2 text-center duration-150 hover:scale-110 hover:text-white bg-gradient-to-r from-bright-yellow to-ocean-blue w-32 shadow-xl mx-auto' href='/'>How?</Link>
         </div>
