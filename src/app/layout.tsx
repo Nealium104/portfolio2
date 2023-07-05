@@ -1,6 +1,8 @@
 import './globals.css'
 import { Montserrat, Source_Code_Pro, Playfair_Display } from 'next/font/google'
 import classNames from 'classnames'
+import Nav from './Nav'
+import Footer from './Footer'
 
 const montserrat = Montserrat({ 
   subsets: ['latin'],
