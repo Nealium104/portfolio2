@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <section className='flex flex-col md:flex-row justify-evenly mb-10'>
         <div className="text-xl md:w-1/4 p-4 border-2 border-off-white rounded-xl bg-black/25 mx-4 my-4">
-          <h2 className="text-3xl">Web Development</h2>
+          <h2 className="py-2 text-3xl text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue">Web Development</h2>
           <p className='text-sm font-source mb-2'>Building full-stack applications that meet your business needs</p>
           <ul className='text-lg  grid grid-cols-3 grid-rows-3'>
             <li>HTML</li>
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-xl md:w-1/4 p-4 border-2 border-off-white rounded-xl bg-black/25 mx-4 my-4">
-          <h2 className="text-3xl">Photography</h2>
+          <h2 className="py-2 text-3xl text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue">Photography</h2>
           <p className='font-source text-sm mb-2'>Capturing moments from your events and businesses</p>
           <ul className='text-lg grid grid-cols-3 grid-rows-3'>
             <li>Events</li>
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-xl md:w-1/4 p-4 border-2 border-off-white rounded-xl bg-black/25 mx-4 my-4">
-          <h2 className="text-3xl">Music</h2>
+          <h2 className="py-2 text-3xl text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue">Music</h2>
           <p className='font-source text-sm mb-2'>Playing and composing the music you need for your program</p>
           <ul className='text-lg grid grid-cols-3 grid-rows-3'>
             <li>Classical</li>
