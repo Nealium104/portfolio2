@@ -25,8 +25,8 @@ export default function Home() {
           <Link className='block py-2 text-center duration-150 hover:scale-110 hover:text-white bg-gradient-to-r from-bright-yellow to-ocean-blue w-32 shadow-xl mx-auto' href='/'>How?</Link>
         </div>
       </div>
-      <section className='flex flex-col md:flex-row justify-evenly'>
-        <div className="text-xl md:w-1/4 p-4">
+      <section className='flex flex-col md:flex-row justify-evenly mb-10'>
+        <div className="text-xl md:w-1/4 p-4 border-2 border-off-white rounded-xl bg-black/25 mx-4 my-4">
           <h2 className="text-3xl">Web Development</h2>
           <p className='text-sm font-source mb-2'>Building full-stack applications that meet your business needs</p>
           <ul className='text-lg  grid grid-cols-3 grid-rows-3'>
@@ -44,7 +44,7 @@ export default function Home() {
             <Link href="/web">Build</Link>
           </div>
         </div>
-        <div className="text-xl md:w-1/4 p-4">
+        <div className="text-xl md:w-1/4 p-4 border-2 border-off-white rounded-xl bg-black/25 mx-4 my-4">
           <h2 className="text-3xl">Photography</h2>
           <p className='font-source text-sm mb-2'>Capturing moments from your events and businesses</p>
           <ul className='text-lg grid grid-cols-3 grid-rows-3'>
@@ -62,7 +62,7 @@ export default function Home() {
             <Link href="/web">Capture</Link>
           </div>
         </div>
-        <div className="text-xl md:w-1/4 p-4">
+        <div className="text-xl md:w-1/4 p-4 border-2 border-off-white rounded-xl bg-black/25 mx-4 my-4">
           <h2 className="text-3xl">Music</h2>
           <p className='font-source text-sm mb-2'>Playing and composing the music you need for your program</p>
           <ul className='text-lg grid grid-cols-3 grid-rows-3'>
@@ -71,7 +71,7 @@ export default function Home() {
             <li>Solo</li>
             <li>Trumpet</li>
             <li>Alto Horn</li>
-            <li>Brass Quintet</li>
+            <li>Quintet</li>
             <li>Teaching</li>
             <li>Rock</li>
             <li>Lead</li>
