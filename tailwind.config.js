@@ -13,6 +13,12 @@ module.exports = {
         'ocean-blue': "#80D3E5",
         'bright-yellow': "#DFD04A"
       },
+      width: {
+        '120': '30rem'
+      },
+      height: {
+        '120': '30rem'
+      }
     },
     fontFamily: {
       montserrat: ['Montserrat'],
