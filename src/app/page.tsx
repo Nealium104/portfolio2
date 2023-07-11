@@ -18,8 +18,8 @@ export default function Home() {
   <>
     <Nav />
     <main className="text-3xl">
-      <div className='flex flex-col md:flex-row justify-center items-center md:justify-evenly md:items-center md:h-screen my-8 md:my-0'>
-        <div className="relative w-120 h-120 md:px-8 rounded-full bg-gradient-to-r from-bright-yellow to-ocean-blue shadow-xl">
+      <div className='flex flex-col overflow-x-hidden md:flex-row justify-center items-center md:justify-evenly md:items-center md:h-screen my-8 md:my-0'>
+        <div className="relative  w-120 h-120 md:px-8 rounded-full bg-gradient-to-r from-bright-yellow to-ocean-blue shadow-xl">
           <Image
           className='rounded-full'
           alt="Neal with the seattle skyline in the background"
