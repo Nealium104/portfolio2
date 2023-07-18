@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <main className="text-3xl">
+      <main className="text-3xl max-w-screen-2xl mx-auto">
         <div className='flex flex-col overflow-x-hidden md:flex-row justify-center items-center md:justify-evenly md:items-center h-screen md:my-0'>
           <div className="relative w-120 h-120 md:px-8 rounded-full bg-gradient-to-r from-bright-yellow to-ocean-blue shadow-xl">
             <Image

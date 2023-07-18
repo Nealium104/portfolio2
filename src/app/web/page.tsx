@@ -3,13 +3,51 @@ import Nav from '../Nav'
 import Footer from '../Footer'
 import Project from './Project'
 
+
 export default function Web() {
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express.js",
+    "Next.js",
+    "MongoDB",
+    "NoSQL",
+    "RESTful APIs",
+    "GitHub",
+    "Webpack",
+    "UI/UX",
+    "Figma",
+    "Tailwind",
+    "WordPress",
+    "Headless CMS",
+    "Databases",
+    "Linux",
+    "CLI",
+    "Scrum",
+    "Project Management",
+    "Organization",
+    "Leadership",
+    "Teaching",
+    "CI/CD",
+    "SEO",
+    "Agile Methodologies"
+  ];
+
   return (
   <>
     <Nav />
     <main className="">
-      <span>Take a look at the other pages for now and feel free to reach out using any of the links at the bottom!</span>
-      <h1></h1>
+      <h1 className='text-6xl'>I'm a <span className='text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue'>Web Developer</span></h1>
+      
+      <h2>I bring skills like these to the table:</h2>
+      <ul className='grid grid-flow-row-dense grid-rows-3 grid-cols-10 text-center overflow-x-scroll text-3xl'>
+        {skills.map((word, index) => <li className='w-fit' key={index}>{word}</li>)}
+      </ul>
+      <h2 className='text-4xl font-bold font-montserrat mx-6'>Projects</h2>
       <div className='grid grid-cols-1 lg:grid-cols-3'>
         <Project 
           title='Collins Trumpet'
