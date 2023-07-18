@@ -89,7 +89,7 @@ export default function Home() {
         </div>
         <section className='flex flex-col md:flex-row justify-evenly mb-10'>
           {Services.map((service, index) => (
-              <ServiceCard data={service} delay={`${200*index}`} />
+              <ServiceCard key={index} data={service} delay={`${200*index}`} />
           ))}
         </section>
       </main>
