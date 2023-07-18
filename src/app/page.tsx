@@ -52,7 +52,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({data, delay}) => {
           <h2 className="py-2 w-fit text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue">{title}</h2>
           <p className='text-sm font-source mb-2'>{desc}</p>
           <ul className='text-md grid gap-2 grid-cols-2 font-source'>
-            {skills.map(skill => <li className='text-center'>{skill}</li>)}
+            {skills.map((skill, index) => <li key={index} className='text-center'>{skill}</li>)}
           </ul>
           <div className="mx-auto font-thin text-black p-2 my-4 w-24 text-center duration-150 bg-gradient-to-r from-bright-yellow to-ocean-blue hover:text-white hover:scale-110">
             <Link href={link}>{linkText}</Link>
