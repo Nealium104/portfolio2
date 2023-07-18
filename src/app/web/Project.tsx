@@ -1,6 +1,7 @@
 import Image from "next/image"
 
 interface ProjectProps {
+    key: string,
     title: string,
     image: string,
     site: string,

@@ -50,18 +50,21 @@ export default function Web() {
       <h2 className='text-4xl font-bold font-montserrat mx-6'>Projects</h2>
       <div className='grid grid-cols-1 lg:grid-cols-3'>
         <Project 
+          key='collins-trumpet'
           title='Collins Trumpet'
           image='https://res.cloudinary.com/dwbwyzsyp/image/upload/v1687457354/Portfolio/Screenshot_2023-06-22_140801_ryrk6k.png'
           site='https://collinstrumpet.com/'
           github='https://github.com/Nealium104/robbie-collins'
         />
         <Project
+          key='gig-econ'
           title='Gig-Econ'
           image='https://res.cloudinary.com/dwbwyzsyp/image/upload/v1689557116/Portfolio/Screenshot_2023-07-16_212458_oonzxt.png'
           site='https://gig-econ.vercel.app/'
           github='https://github.com/Nealium104/counter'
         />
         <Project 
+          key='skunch'
           title='Skunch'
           image='https://res.cloudinary.com/dwbwyzsyp/image/upload/v1687457527/Portfolio/Screenshot_2023-06-22_141147_jf5h17.png'
           site='https://www.skun.ch/'
