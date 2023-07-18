@@ -41,7 +41,7 @@ export default function Web() {
   <>
     <Nav />
     <main className="">
-      <h1 className='text-6xl'>I'm a <span className='text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue'>Web Developer</span></h1>
+      <h1 className='text-6xl'>I&apos;m a <span className='text-transparent bg-clip-text bg-gradient-to-r from-bright-yellow to-ocean-blue'>Web Developer</span></h1>
       
       <h2>I bring skills like these to the table:</h2>
       <ul className='grid grid-flow-row-dense grid-rows-3 grid-cols-10 text-center overflow-x-scroll text-3xl'>
